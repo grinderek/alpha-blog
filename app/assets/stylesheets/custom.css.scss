@@ -1,0 +1,29 @@
+.navbar {
+  background-color: black !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+#logo {
+  float: left;
+  color: white;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#jumbotron {
+  background-image: asset-url("jumbo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+}
+
+#home-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
