@@ -18,6 +18,7 @@ class CategoriesController < ApplicationController
     @category = Category.new(category_params)
 
     if @category.save
+      flash[:notice] = "Category was successfully created"
       redirect_to @category
     else
       render 'new'
